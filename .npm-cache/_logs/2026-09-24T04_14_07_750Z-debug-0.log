@@ -1,0 +1,34 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\PRATHMESH\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.18.0
+2 info using node@v24.14.1
+3 silly config load:file:C:\Users\PRATHMESH\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\PRATHMESH\Desktop\Frontend_react\.npmrc
+5 silly config load:file:C:\Users\PRATHMESH\.npmrc
+6 silly config load:file:C:\Users\PRATHMESH\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i
+8 verbose argv "i"
+9 verbose logfile logs-max:10 dir:C:\Users\PRATHMESH\Desktop\Frontend_react\.npm-cache\_logs\2026-09-24T04_14_07_750Z-
+10 verbose logfile C:\Users\PRATHMESH\Desktop\Frontend_react\.npm-cache\_logs\2026-09-24T04_14_07_750Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile start cleaning logs, removing 1 files
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 silly logfile done cleaning log files
+15 silly idealTree buildDeps
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json missing from lockfile: node_modules/@next/font
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\PRATHMESH\\Desktop\\Frontend_react\\node_modules\\@next\\font'
+17 silly reify ]
+18 silly reify moves {
+18 silly reify   'C:\\Users\\PRATHMESH\\Desktop\\Frontend_react\\node_modules\\@next\\font': 'C:\\Users\\PRATHMESH\\Desktop\\Frontend_react\\node_modules\\@next\\.font-RixV7Mfl'
+18 silly reify }
+19 silly REMOVE node_modules/@next/font
+20 warn allow-scripts 1 package has install scripts not yet covered by allowScripts:
+20 warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+20 warn allow-scripts
+20 warn allow-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+21 verbose cwd C:\Users\PRATHMESH\Desktop\Frontend_react
+22 verbose os Windows_NT 10.0.26200
+23 verbose node v24.14.1
+24 verbose npm  v11.18.0
+25 verbose exit 0
+26 info ok
