@@ -7,6 +7,7 @@ import React, {
   useRef,
   useState,
 } from "react";
+import { Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -42,7 +43,7 @@ const SORT_FIELDS: { value: SortField | ""; label: string }[] = [
   { value: "title", label: "Title" },
 ];
 
-const ProductListPage: React.FC = () => {
+const ProductListContent: React.FC = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -644,5 +645,11 @@ const ProductListPage: React.FC = () => {
     </div>
   );
 };
+
+const ProductListPage: React.FC = () => (
+  <Suspense fallback={<PageLoader label="Loading products..." />}>
+    <ProductListContent />
+  </Suspense>
+);
 
 export default ProductListPage;
